@@ -26,7 +26,7 @@ const Navbar = () => {
           <li className="cursor-pointer hover:text-black">Kids</li>
           <li className="cursor-pointer hover:text-black">Blog</li>
           <li className="cursor-pointer hover:text-black">Contact</li>
-          <li className="cursor-pointer font-semibold text-black">SPECIAL SALE</li>
+          <li className="cursor-pointer font-semibold text-red-500">SPECIAL SALE</li>
         </ul>
 
         {/* Search and Icons */}

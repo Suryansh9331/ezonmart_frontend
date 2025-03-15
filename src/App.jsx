@@ -1,13 +1,10 @@
-import Navbar from "./components/layout/Navbar";
-import Hero from "./components/layout/hero";
-
-function App() {
+import Home from "./pages/home";
+function Body() {
   return (
     <div className="font-sans">
-      <Navbar />
-      <Hero />
+     <Home/>
     </div>
   );
 }
 
-export default App;
+export default Body;
