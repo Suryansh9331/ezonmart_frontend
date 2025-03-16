@@ -6,7 +6,7 @@ import StaticImageShowcase from "../components/layout/StaticImageShowcase";
 function Home() {
   return (
     <div>
-       <Navbar/>
+      <Navbar/>
       <Hero />
       <NewArrivals />  
       <StaticImageShowcase/>
