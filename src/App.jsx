@@ -3,7 +3,7 @@ function Body() {
   return (
     <div className="font-sans">
      <Home/>
-    </div>
+     </div>
   );
 }
 
