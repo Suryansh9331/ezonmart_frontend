@@ -22,6 +22,7 @@ const products = [
     discount: "45% OFF",
     rating: 4.2,
     image: "/images/black.png",
+    
   },
   {
     id: 2,
