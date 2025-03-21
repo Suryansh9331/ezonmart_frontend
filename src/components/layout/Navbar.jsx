@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { FiMenu, FiX, FiSearch, FiHeart, FiShoppingCart, FiUser } from "react-icons/fi";
+import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar =() => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   return (
     <header className="w-full bg-gray-100">
       {/* Top Bar */}
@@ -44,7 +44,8 @@ const Navbar = () => {
             <FiShoppingCart className="text-xl cursor-pointer hover:text-gray-600" />
             <span className="absolute -top-2 -right-2 bg-black text-white text-xs px-1 rounded-full">1</span>
           </div>
-          <FiUser className="text-xl cursor-pointer hover:text-gray-600" />
+         <Link to="/login"><FiUser className="text-xl cursor-pointer hover:text-gray-600"/></Link> 
+   
         </div>
 
         {/* Hamburger Menu for Mobile */}
@@ -63,7 +64,7 @@ const Navbar = () => {
         >
           <button
             className="text-2xl absolute top-4 right-4"
-            onClick={() => setMenuOpen(false)}
+            onClick={() => setMenuOpen()}
           >
             <FiX />
           </button>
@@ -77,8 +78,8 @@ const Navbar = () => {
             <li className="cursor-pointer font-semibold text-black">SPECIAL SALE</li>
           </ul>
         </div>
-      </nav>
-    </header>
+        </nav>
+      </header>
   );
 };
 
