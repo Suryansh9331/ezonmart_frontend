@@ -1,10 +1,10 @@
 import React from "react";
 
 const images = [
-  { id: 1, name: "Nara Plunged Short Dress", image: "https://via.placeholder.com/300x400" },
-  { id: 2, name: "Elegant Silk Gown", image: "https://via.placeholder.com/300x400" },
-  { id: 3, name: "Casual Streetwear", image: "https://via.placeholder.com/300x400" },
-  { id: 4, name: "Chic Women's Handbag", image: "https://via.placeholder.com/300x400" },
+  { id: 1, name: "Image 1", image: "/images/staticimg1.jpg" }, // ✅ Public folder se sahi path
+  { id: 2, name: "Image 2", image: "https://via.placeholder.com/300x400" },
+  { id: 3, name: "Image 3", image: "https://via.placeholder.com/300x400" },
+  { id: 4, name: "Image 4", image: "https://via.placeholder.com/300x400" },
 ];
 
 const ImageShowcase = () => {
@@ -25,6 +25,11 @@ const ImageShowcase = () => {
 
           {/* Foreground Image */}
           <div className="relative w-full h-full bg-gray-300 rounded-lg shadow-xl flex items-center justify-center transition-transform duration-300 group-hover:-translate-x-1 group-hover:-translate-y-1">
+            <img 
+              src={item.image} 
+              alt={item.name} 
+              className="w-full h-full object-cover rounded-lg"
+            />
             <p className="absolute bottom-3 sm:bottom-5 left-3 sm:left-5 text-black font-bold text-xs sm:text-sm md:text-lg">
               {item.name}
             </p>

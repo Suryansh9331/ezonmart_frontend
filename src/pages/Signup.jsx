@@ -43,9 +43,9 @@ export default function Signup() {
 
           {/* Social Media Icons */}
           <div className="flex justify-center space-x-4 mt-13 text-gray-500">
-            <i className="fab fa-facebook-f"></i>
-            <i className="fab fa-linkedin-in"></i>
-            <i className="fab fa-twitter"></i>
+           <a href="https:www.facebook.com"><i className="fab fa-facebook-f"></i></a>
+           <a href="https://www.linkedin.com/in/suryansh9331/"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.twitter.com"><i className="fab fa-twitter"></i></a>
             <i className="fab fa-instagram"></i>
             <i className="fab fa-apple"></i>
             <i className="fab fa-google-play"></i>

@@ -4,9 +4,8 @@ function Body() {
   return (
     <div className="font-sans">
      <Home/>
-    Login_signup_branch
-     <Outlet/
- main
+    
+     <Outlet/>
      </div>
   );
 }

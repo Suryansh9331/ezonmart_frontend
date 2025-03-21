@@ -21,10 +21,10 @@ const Navbar =() => {
 
         {/* Desktop Nav Links */}
         <ul className="hidden md:flex space-x-6 text-gray-700">
-          <li className="cursor-pointer hover:text-black">Men</li>
-          <li className="cursor-pointer hover:text-black">Women</li>
-          <li className="cursor-pointer hover:text-black">Kids</li>
-          <li className="cursor-pointer hover:text-black">Blog</li>
+          <li className="cursor-pointer hover:text-black">Clothes</li>
+          <li className="cursor-pointer hover:text-black">Electronics</li>
+          <li className="cursor-pointer hover:text-black">Toys</li>
+          <li className="cursor-pointer hover:text-black">About us</li>
           <li className="cursor-pointer hover:text-black">Contact</li>
           <li className="cursor-pointer font-semibold text-red-500">SPECIAL SALE</li>
         </ul>
@@ -70,14 +70,14 @@ const Navbar =() => {
           </button>
 
           <ul className="mt-12 space-y-4 text-gray-700">
-            <li className="cursor-pointer hover:text-black">Men</li>
-            <li className="cursor-pointer hover:text-black">Women</li>
-            <li className="cursor-pointer hover:text-black">Kids</li>
-            <li className="cursor-pointer hover:text-black">Blog</li>
+            <li className="cursor-pointer hover:text-black">Clothes</li>
+            <li className="cursor-pointer hover:text-black">Electronics</li>
+            <li className="cursor-pointer hover:text-black">Toys</li>
+            <li className="cursor-pointer hover:text-black">About us</li>
             <li className="cursor-pointer hover:text-black">Contact</li>
             <li className="cursor-pointer font-semibold text-black">SPECIAL SALE</li>
           </ul>
-        </div>
+        </div>   
         </nav>
       </header>
   );

@@ -29,9 +29,9 @@ export default function Login() {
           </p>
 
           <div className="mt-6">
-            <p className="text-sm mb-2">New to AVA</p>
+            <p className="text-sm mb-2">New to  Ezonmart</p>
            <Link to="/signup"><button className="w-full border border-gray-400 py-2 rounded-md hover:bg-gray-100">
-              Create your AVA account
+              Create your Ezonmart account
             </button></Link> 
           </div>
 
